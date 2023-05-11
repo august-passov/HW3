@@ -22,7 +22,7 @@ end
 
   # collect user-entered data in table columns
   @place["name"] = params["place"]["name"]
-  
+ 
   @place.save
 
   redirect_to "/places"
